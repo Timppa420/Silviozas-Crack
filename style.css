@@ -1,31 +1,39 @@
 *{
     font-family: sans-serif;
 }
-body{
-    background-color: rgb(15, 17, 20);
+
+body {
+    background-image: url('JOTAIN33.gif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25%;
+    margin: 0;
 }
 
-button{
+
+button {
     position: relative;
+    background-color: black; /* Set the background color to black */
     width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     font-weight: bold;
-    border: 2px solid #6237ff;
+    border: 2px solid #ff3737;
     background: transparent;
     color: #ffff;
     cursor: pointer;
     overflow: hidden;
     text-transform: uppercase;
-
 }
+
+
 span{
-    background-color: #6237ff;
+    background-color: #ff3737;
     height: 100%;
     width: 0%;
     position: absolute;
@@ -38,13 +46,38 @@ button:hover span{
     width: 100%;
 }
 
-.KeskiTeksti{
-    font-family: sans-serif;
+.KeskiTeksti {
+    /* ... (existing styles) ... */
     width: 100%;
     position: absolute;
-    top: 40%;
+    top: 30%; /* Adjust the top value to move .KeskiTeksti higher */
     transform: translateY(-50%);
     text-align: center;
-    color:#6237ff;
+    color: #ff3737;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 20px;
 
 }
+
+
+h1 {
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #ffffff;
+    font-size: 100px;
+    top: 5%;
+    left: 50%;
+}
+
+P{
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #ffffff;
+    font-size: 30px;
+}
+
+.Image {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 100px; 
+    height: 5px; 
+  }
