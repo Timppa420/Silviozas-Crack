@@ -1,4 +1,4 @@
-*{
+* {
     font-family: sans-serif;
 }
 
@@ -14,52 +14,134 @@ body {
     margin: 0;
 }
 
-
-button {
+.info {
     position: relative;
-    background-color: black; /* Set the background color to black */
+    background-color: black;
     width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     font-weight: bold;
-    border: 2px solid #ff3737;
+    border: 2px solid red;
+    color: white; /* Set the text color to red */
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
     background: transparent;
+}
+
+.high {
+
+        position: relative;
+        background-color:black;
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        font-weight: bold;
+        color: #ffff;
+        cursor: pointer;
+        overflow: hidden;
+        text-transform: uppercase;
+        background:transparent;
+        border: none;
+
+}
+
+span { *{
+    font-family: sans-serif;
+    color:white;
+}
+
+body {
+    background-image: url('JOTAIN33.gif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.info {
+    position: relative;
+    background-color: black;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid ;
+    color: white; /* Set the text color to white */
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    background: transparent;
+}
+.high {
+    position: relative;
+    background-color: black;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
     color: #ffff;
     cursor: pointer;
     overflow: hidden;
     text-transform: uppercase;
+    background: transparent;
+    border: none;
+}
+
+button:hover span {
+    width: 100%;
+    background-color: black; /* Change the background color on hover */
 }
 
 
-span{
-    background-color: #ff3737;
+.top {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ff3737;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 25px;
+high};
     height: 100%;
     width: 0%;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s;
+    transition: width 0.5s, background-color 0.5s; /* Add transition for smooth animation */
+    background-color:white;
 }
-button:hover span{
+
+.high:hover {
+    color:#ff3737;
+}
+
+button:hover span {
     width: 100%;
+    background-color: #ff3737; /* Change the background color on hover */
 }
 
 .KeskiTeksti {
-    /* ... (existing styles) ... */
     width: 100%;
     position: absolute;
-    top: 30%; /* Adjust the top value to move .KeskiTeksti higher */
-    transform: translateY(-50%);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #ff3737;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    font-size: 20px;
-
 }
-
-
 h1 {
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #ffffff;
     font-size: 100px;
@@ -80,4 +162,16 @@ P{
     z-index: 999;
     width: 100px; 
     height: 5px; 
-  }
+}
+
+.top {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ff3737;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 25px;
+}```
