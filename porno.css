@@ -1,0 +1,101 @@
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    background-image: url('JOTAIN33.gif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh; 
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    top:100%;
+    left:100%;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 310px; /* Set the width as per your preference */
+    margin: 25px;
+    height:250px;
+}
+
+.retard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images {
+    margin-top:125px;
+}
+
+.high {
+    position: relative;
+
+    width:120px;
+    left:42%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+}
+
+.top {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ff3737;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 25px;
+high};
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: width 0.5s, background-color 0.5s; /* Add transition for smooth animation */
+    background-color:white;
+}
+
+.top {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ff3737;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+.high:hover {
+    color:#ff3737;
+}
+
+button:hover span {
+    width: 100%;
+    background-color: #ff3737; /* Change the background color on hover */
+}
